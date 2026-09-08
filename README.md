@@ -1,6 +1,9 @@
 # i-Terial
 
-เป็นเว็บไซต์จัดการคอร์สเรียนที่พัฒนาเป็นโปรเจกต์ในรายวิชา Fundamental Webprogramming
+เป็นเว็บไซต์จัดการคอร์สเรียนที่พัฒนาเป็นโปรเจกต์ในรายวิชา Fundamental Webprogramming จัดทำขึ้นเพื่อเป็นส่วนหนึ่งของการเรียนในรายวิชา Fundamental Webprogramming
+โดยมีเป้าหมายเพื่อฝึกการพัฒนา Web Application แบบ Full Stack
+ตั้งแต่การออกแบบหน้าเว็บไซต์ การพัฒนา Backend
+การจัดการฐานข้อมูล และการเชื่อมต่อระหว่าง Frontend และ Backend
 
 ## รายละเอียดเกี่ยวกับโปรเจกต์
 
@@ -40,7 +43,7 @@ i-Terial เป็นเว็บไซต์ที่พัฒนาขึ้�
 - Express Session
 - Git / GitHub
 
-## 📂 โครงสร้างโปรเจกต์
+## โครงสร้างโปรเจกต์
 
 ```text
 i-Terial/
@@ -50,3 +53,10 @@ i-Terial/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
+## วิธีติดตั้งและใช้งาน i-Terial
+1. git clone https://github.com/Chanokpuns/i-Terial.git
+2. cd i-Terial
+3. ติดตั้ง npm install
+4. เริ่มต้น server ด้วยคำสั่ง node index.js
+5. เปิดเว็บไซต์ผ่าน Browser ตาม Port ที่กำหนดไว้ในโปรเจกต์
